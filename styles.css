@@ -5,7 +5,7 @@
 }
 .hero{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(photo.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/home/evaris/Bureau/js_4_share_files/Img/photo.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -51,7 +51,6 @@
 
 }
 .btn{
-    font: black;
     padding: 10px 20px;
     border: 0;
     background: yellow;
@@ -82,6 +81,7 @@
     top: 0;
     left: 0;
     position: absolute;
+    bottom: 0;
 }
 .search-icon{
     height: 60%;
@@ -114,7 +114,67 @@
 .nav-bar .fa{
     display: none;
 }
+.wrapper{
+  margin-top: 10%;
+}
 
+.wrapper h1{
+  font-family: sans-serif;
+  color: yellow;
+  font-size: 52px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: yellow;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.team .team_member p{
+  color: black;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
 
 @media(max-width:700px){
     .vertical-bar{
