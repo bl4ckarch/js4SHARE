@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS4share</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="stylelogin.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+            
+        </script>
+    </head>
+    <body>
+        <div class="hero">
+            <div class="nav-bar">
+                <div class="nav-logo">
+                    <img src="JavaScript1579705978.png">
+                </div>
+            
+                <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>Events</li></a>
+                    <a href="#"><li>Gallery</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+                
+                
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+            <div class="banner-title">
+                <div class="loginbox">
+                     <img src="evs.jpg" class="avatar">
+                     <h1>Login Here</h1>
+                     
+                    <form>
+                        <p>Username</p>
+                         <input type="text" name="" placeholder="Enter Username">
+                        <p>Password</p>
+                        <input type="password" name="" placeholder="Enter Password">
+                        <input type="submit" name="" value="Login">
+            
+                         <a href="#">Don't have an account?</a>
+                     </form>
+                     
+        
+                </div>  
+            </div>
+            <div class="vertical-bar">
+                <div class="search-icon">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <div class="social-icon">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <script>
+            var show = document.getElementById("nav-links");
+            function showMenu(){
+                show.style.right = "0";
+            }
+            function closeMenu(){
+                show.style.right = "-200px";
+            }
+
+        </script>
+        
+    </body>
+</html>

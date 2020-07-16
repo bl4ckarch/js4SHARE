@@ -5,7 +5,7 @@
 }
 .hero{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/home/evaris/Bureau/js_4_share_files/Img/photo.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(photo1.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -17,7 +17,16 @@
 }
 
 .nav-logo img{
+
+   
     width: 50px;
+    display: block;
+    color: white;
+    margin: 10px 2px;
+    font-size: 22px;
+    cursor: pointer;
+    top: 25px;
+    width: 25px;
     
 }
 .nav-links{
@@ -167,13 +176,13 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #fff;
+ 
 }
 
 .team .team_member .team_img img{
   width: 100px;
   height: 100px;
-  padding: 5px;
+  
 }
 
 @media(max-width:700px){
